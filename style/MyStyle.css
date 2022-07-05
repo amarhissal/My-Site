@@ -47,15 +47,36 @@ padding-top: 50px;
     position: absolute;
     right:300px;
     top:50px;
-    
+    animation: cloud1;
+    animation-duration: 5s;
+    animation-iteration-count:calc(1)
+}
+@keyframes cloud1{
+    from{
+        left: 10px;
+    }
+    to{
+        left:1050px;
+    }
 }
 #cloud2{
    
     position:absolute;
     left: 300px;
     bottom: 300px;
+    animation: cloud2;
+    animation-duration: 3s;
+    animation-iteration-count:calc(1)
 
 }
+
+@keyframes cloud2{
+    from{
+        left: 10px;
+    }
+    to{
+        right:750px;
+    }}
 
 .skill-row{
     width: 50%;
