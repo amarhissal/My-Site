@@ -45,7 +45,7 @@ padding-top: 50px;
 #cloud1{
     
     position: absolute;
-    right:500px;
+    left:50%;
     top:50px;
     animation: cloud1;
     animation-duration: 5s;
@@ -53,10 +53,10 @@ padding-top: 50px;
 }
 @keyframes cloud1{
     from{
-        left: 10px;
+        left: 5%;
     }
     to{
-        left:850px;
+        left:50%;
     }
 }
 #cloud2{
