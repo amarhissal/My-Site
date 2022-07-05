@@ -45,7 +45,7 @@ padding-top: 50px;
 #cloud1{
     
     position: absolute;
-    right:300px;
+    right:500px;
     top:50px;
     animation: cloud1;
     animation-duration: 5s;
@@ -56,7 +56,7 @@ padding-top: 50px;
         left: 10px;
     }
     to{
-        left:1050px;
+        left:850px;
     }
 }
 #cloud2{
